@@ -23,7 +23,7 @@ const DescriptionSection: React.FC<DescriptionSectionProps> = ({ title, descript
         </div>
 
         {/* Right Side: 3D Model Placeholder (on the right on larger screens, above the text on mobile) */}
-        <div className="hidden md:block lg:w-full w-full h-full lg:pl-8 flex items-center justify-center  mb-8 lg:mb-0">
+        <div className="lg:w-full w-full h-full lg:pl-8 flex items-center justify-center  mb-8 lg:mb-0 z-0">
         <Spline
         
         scene="https://prod.spline.design/F7YcvtNTK7u6Mhdf/scene.splinecode" 
