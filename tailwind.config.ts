@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Helvetica Neue', 'Arial', 'sans-serif'], // Replace with a custom font
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

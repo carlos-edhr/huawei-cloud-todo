@@ -1,0 +1,23 @@
+@keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid white; /* Cursor effect */
+    white-space: nowrap;
+    width: 0; /* Initially hidden */
+    animation: typewriter 3.5s steps(40, end) forwards, blink 0.75s step-end infinite;
+  }
+  
