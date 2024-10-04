@@ -109,15 +109,16 @@ const titles = [
           </ul>
         </nav>
   
-        {/* Hero Title in Bottom-Left with Typewriter Effect */}
+        {/* Hero Title in Bottom-Left with Typewriter Effect and Blinking Caret */}
         <div className="absolute bottom-8 left-8 z-10">
-          <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-wider">
+          <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-wider typewriter">
             {currentText}
+            {/* <span className="blinking-caret"></span> */}
           </h1>
         </div>
   
         {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black opacity-20 z-0"></div>
+        <div className="absolute inset-0 bg-black opacity-30 z-0"></div>
       </div>
     );
   };
